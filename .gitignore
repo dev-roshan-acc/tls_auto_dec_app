@@ -1,0 +1,40 @@
+# Python bytecode files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environment directories
+venv/
+env/
+ENV/
+.venv/
+
+# IDE and editor directories and files
+.idea/
+.vscode/
+*.swp
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Sensitive information
+config.py  # If you store sensitive data in this file
+
+# Distribution and packaging
+*.egg-info/
+dist/
+build/
+
+# Test directories
+.coverage
+*.coverage
+nosetests.xml
+test_*.xml
